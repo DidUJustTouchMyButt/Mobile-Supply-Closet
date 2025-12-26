@@ -23,7 +23,7 @@ export const StatsCard: React.FC<StatsCardProps> = ({ title, value, icon, trend,
           <p className="text-sm font-medium text-gray-500">{title}</p>
           <p className="text-2xl font-bold text-gray-900 mt-1">{value}</p>
         </div>
-        <div className={`p-3 rounded-full ${colorClasses[color]}`}>
+        <div className={`p-3 rounded- ${colorClasses[color]}`}>
           {icon}
         </div>
       </div>
