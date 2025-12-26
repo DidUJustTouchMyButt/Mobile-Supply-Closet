@@ -38,7 +38,7 @@ export const AssistantPanel: React.FC<AssistantPanelProps> = ({ items, isOpen, o
       <div className="p-6 bg-gradient-to-r from-emerald-600 to-teal-600 text-white flex justify-between items-center">
         <div>
           <h2 className="text-xl font-bold">Pantry Assistant</h2>
-          <p className="text-emerald-100 text-sm">Powered by Gemini 2.5 Flash</p>
+          <p className="text-emerald-100 text-sm">Powered by Gemini 3 Flash</p>
         </div>
         <button onClick={onClose} className="text-white/80 hover:text-white">
           <X className="w-6 h-6" />
