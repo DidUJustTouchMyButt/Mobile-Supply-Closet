@@ -1,0 +1,7 @@
+{
+  "name": "Supply Closet Pro",
+  "description": "Smart inventory for food banks and community resources with AI-driven insights.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
